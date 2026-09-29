@@ -1,71 +1,172 @@
 # CCG Fishing Privacy Policy
 
-**Effective Date: September 22, 2026**
+**Last updated: September 28, 2026**
 
-Cornbread Productions ("we," "our," or "us") provides the CCG Fishing mobile application. This Privacy Policy explains how information is handled when you use CCG Fishing.
+CCG Fishing respects your privacy. This Privacy Policy explains what information the CCG Fishing mobile application collects, how that information is used, and the choices available to users.
 
-## Information CCG Fishing Uses
+## Information We Collect
 
-CCG Fishing may use information that you provide or generate while using the app, including:
+### Account Information
 
-- Fishing locations and GPS coordinates
-- Saved fishing spots and routes
-- Catch log information
-- Catch photographs selected from your device or taken with your camera
-- Boat notes, maintenance records, and checklist information
-- Fishing trip information and other information you choose to enter into the app
+CCG Fishing allows users to create an account using an email address and password.
+
+Account information may include:
+
+- Name
+- Email address
+- User ID
+
+Authentication is provided using Google Firebase Authentication.
+
+### Fishing Profile Information
+
+Users may create a fishing profile containing information such as:
+
+- Name
+- Home fishing area
+- Boat information
+- Boat draft
+- Target fish species
+- Fishing style
+
+Fishing profile information is stored using Google Firebase Cloud Firestore and is associated with the user's account.
 
 ## Location Information
 
-CCG Fishing may request access to your device's location to provide location-based fishing features, including displaying your current position on maps, saving fishing locations, recording catch locations, and assisting with routes and waypoints.
+CCG Fishing may request access to your device's precise location.
 
-Location access is used only when needed for app features and when permission has been granted by the user.
+Location is used for app features such as:
 
-## Camera and Photos
+- Showing your position on fishing maps
+- Saving fishing locations and waypoints
+- Recording catch locations
+- Weather information
+- Tide information
+- Other location-based fishing features
 
-CCG Fishing may request access to your camera or photos so that you can add photographs to catch records and other supported features.
+Location access is optional and depends on the permissions you grant to CCG Fishing.
 
-Photos are accessed only when you choose to take or select a photo.
+Location information may be transmitted to weather, tide, or related services when necessary to provide information requested by the user.
 
-## Locally Stored Information
+## Photos
 
-CCG Fishing stores certain information on your device, such as saved fishing information, boat information, maintenance records, checklists, notes, routes, waypoints, and catch records.
+CCG Fishing allows users to select or take photos for features such as the Catch Log.
 
-Removing the app or clearing its application data may remove locally stored information.
+These photos are stored locally on the user's device unless otherwise stated in the app.
 
-## Internet and Third-Party Services
+CCG Fishing does not use user photos for advertising.
 
-CCG Fishing may access internet-based services to provide features such as maps, weather information, tide information, marine conditions, and other fishing-related information.
+## Fishing Data Stored on Your Device
 
-Those services may process technical information necessary to provide their services and may be governed by their own privacy policies.
+CCG Fishing may store fishing-related information locally on your device, including:
 
-## Sharing of Personal Information
+- Fishing spots and waypoints
+- Routes
+- Catch records
+- Catch photos
+- Boat notes
+- Maintenance information
+- Checklists
+- Trip information
+- Other information entered by the user
 
-Cornbread Productions does not sell your personal information.
+Locally stored information generally remains on the device unless the user exports it, removes the app data, or uses a feature that requires transmission to another service.
 
-Information you create in CCG Fishing is not shared with other users by us unless a feature specifically allows you to export or share information and you choose to do so.
+## AI Fishing Guide
+
+CCG Fishing includes an AI Fishing Guide.
+
+When you use the AI Fishing Guide, the fishing question you enter is transmitted over a secure connection to CCG Fishing's AI service.
+
+To provide more personalized fishing advice, information from your fishing profile may also be sent with your question. This may include:
+
+- Name
+- Home fishing area
+- Boat
+- Boat draft
+- Target species
+- Fishing style
+
+The AI service is operated using Cloudflare infrastructure and Cloudflare Workers AI.
+
+Do not enter passwords, financial information, or other highly sensitive personal information into the AI Fishing Guide.
+
+## How We Use Information
+
+Information collected by CCG Fishing is used to:
+
+- Create and manage user accounts
+- Authenticate users
+- Save and retrieve fishing profiles
+- Provide fishing and mapping features
+- Provide weather and tide information
+- Personalize app features
+- Generate responses from the AI Fishing Guide
+- Maintain and improve app functionality
+- Protect the security and reliability of the service
+
+CCG Fishing does not sell user personal information.
+
+CCG Fishing does not use personal information for third-party advertising.
+
+## Third-Party Services
+
+CCG Fishing uses third-party services to provide certain app functionality. These may include:
+
+- Google Firebase Authentication
+- Google Firebase Cloud Firestore
+- Cloudflare and Cloudflare Workers AI
+- Weather and tide information providers
+- Mapping and related location services
+
+Information may be processed by these service providers when necessary to provide the requested app functionality.
 
 ## Data Security
 
-Reasonable measures are used to help protect information handled by CCG Fishing. However, no electronic storage or transmission method can be guaranteed to be completely secure.
+CCG Fishing uses secure network connections when transmitting user information.
+
+Reasonable measures are used to protect account and cloud profile information. However, no electronic storage or transmission method can be guaranteed to be completely secure.
+
+## Account and Data Deletion
+
+Users can permanently delete their CCG Fishing account from within the app:
+
+1. Sign in to CCG Fishing.
+2. Open **Settings**.
+3. Select **My Fishing Profile**.
+4. Select **Delete Account**.
+5. Confirm the deletion.
+
+Deleting an account deletes the Firebase Authentication account and associated CCG Fishing cloud fishing profile.
+
+Users who cannot access the app may request account deletion by contacting:
+
+**meyerp456@gmail.com**
+
+Use **CCG Fishing Account Deletion Request** as the email subject and send the request from the email address associated with the account.
+
+Account deletion instructions are also available at:
+
+https://cornbread098.github.io/ccg-fishing-privacy/delete-account.html
+
+Data stored only locally on the user's device may remain until the CCG Fishing app or its local app data is removed.
+
+Some information may be retained when required for security, fraud prevention, legal, or regulatory purposes.
 
 ## Children's Privacy
 
-CCG Fishing is not specifically designed for children under 13. We do not knowingly collect personal information from children under 13.
+CCG Fishing is not directed toward children under 13 and is intended for a general adult audience.
 
-## Your Choices
-
-You can control permissions such as location, camera, and photo access through your Android device settings.
-
-You can choose whether to save fishing locations, photographs, notes, catches, routes, and other information within the app.
+CCG Fishing does not knowingly collect personal information from children under 13.
 
 ## Changes to This Privacy Policy
 
-This Privacy Policy may be updated as CCG Fishing changes. Updates will be posted on this page with a revised effective date.
+This Privacy Policy may be updated when CCG Fishing features or data practices change.
+
+Updates will be posted on this page with a revised "Last updated" date.
 
 ## Contact
 
-If you have questions about this Privacy Policy or CCG Fishing, contact:
+For privacy questions or account deletion requests, contact:
 
-**Cornbread Productions**  
-Email: **meyerp456@gmail.com**
+**meyerp456@gmail.com**
